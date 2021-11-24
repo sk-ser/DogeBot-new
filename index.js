@@ -128,8 +128,8 @@ banChats = false;
 offline = false;
 antidel = false;
 welcom = false;
-antical = false
-readGc = true; 
+antical = false;
+readGc = false; 
 readPc = false;
 autovn = false;
 multi = true
@@ -139,24 +139,24 @@ nopref = true
 numbernye = '0'
 autoketik = false;
 prefixStatus = false;
-targetpc = "916909137213"; 
-owner = "916909137213"; 
-fakeyoi = "Xeon"; 
+targetpc = "94725292890"; 
+owner = "94725292890"; 
+fakeyoi = "🅼『SHANZ』亗"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
 hardi = 'hardianto', 
 valkey = "rivalgans", 
 zeksapi = "vallganz5",
 dapapi = "anakasu",
-ApiZeks = "https://api.zeks.xyz",
+ApiZeks = "BfYLA4wOt7Ag5reAVWo6T6m3FeG",
 zeksApikey = "Alphabott",
-nomorowner1 = "@916909137213"; 
+nomorowner1 = "@94725292890"; 
 fake = `𝗢𝘄𝗻𝗲𝗿 : ${fakeyoi}\n㋛︎ 𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg"); 
 numbernye = "0"; 
 waktu = "-";
 alasan = "-"; 
-autojoin = true;
+autojoin = false;
 cmhit = []
 hit_today = [];
 //=================================================//
@@ -349,7 +349,7 @@ const checkRegisteredUser = (sender) => {
       ? mek.participant
       : mek.key.remoteJid;
     const totalchat = await xeon.chats.all();
-    const ownerNumber = [`916909137213@s.whatsapp.net`]
+    const ownerNumber = [`94725292890@s.whatsapp.net`]
 	const senderNumber = sender.split("@")[0] 
     const m = simple.smsg(xeon, mek);
     const groupMetadata = isGroup ? await xeon.groupMetadata(from) : "";
@@ -451,7 +451,7 @@ const math = (teks) => {
            return Math.floor(teks)
        }
 /*const reply = (teks) => {
-			xeon.sendMessage(from, teks, text, { thumbnail: iye, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `${jam} - ${week} ${weton} - ${date}`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/916909137213?text=hello`}}})
+			xeon.sendMessage(from, teks, text, { thumbnail: iye, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `${jam} - ${week} ${weton} - ${date}`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/94725292890?text=hello`}}})
 		}*/
     const sendMess = (hehe, teks) => {
       xeon.sendMessage(hehe, teks, text);
@@ -939,7 +939,7 @@ const reply = (teks) => {
              xeon.relayWAMessage(res)
         }
 const fakewa = (teks) => {        
-xeon.sendMessage(from, teks, text, { thumbnail: fake, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Xeon`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/916909137213?text=hello`}}})
+xeon.sendMessage(from, teks, text, { thumbnail: fake, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Xeon`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/94725292890?text=hello`}}})
 		}
 const replyfakelink = (teks) => {
 xeon.sendMessage(from, teks, text,{contextInfo :{text: 'hi',
@@ -962,12 +962,12 @@ isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
                 "title": `Whatsapp`,
-                "body": `wa.me/916909137213`,
+                "body": `wa.me/94725292890`,
                 "mediaType": "10",
-                "mediaUrl": `wa.me/916909137213`,
+                "mediaUrl": `wa.me/94725292890`,
                 "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
                 "thumbnail": iye,
-                "sourceUrl": `wa.me/916909137213`,
+                "sourceUrl": `wa.me/94725292890`,
 },mentionedJid:[sender]}, quoted : mek})
 };
 const fakeyt = (teks) => {
@@ -1139,7 +1139,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
         let vote = JSON.parse(fs.readFileSync(`./lib/${from}.json`));
         let _votes = JSON.parse(fs.readFileSync(`./lib/vote/${from}.json`));
         let fil = vote.map((v) => v.participant);
-        let id_vote = sender ? sender : "916909137213@s.whatsapp.net";
+        let id_vote = sender ? sender : "94725292890@s.whatsapp.net";
         if (fil.includes(id_vote)) {
           return mentions(
             "@" + sender.split("@")[0] + " You have voted",
@@ -1171,7 +1171,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
         const vote = JSON.parse(fs.readFileSync(`./lib/${from}.json`));
         let _votes = JSON.parse(fs.readFileSync(`./lib/vote/${from}.json`));
         let fil = vote.map((v) => v.participant);
-        let id_vote = sender ? sender : "916909137213@s.whatsapp.net";
+        let id_vote = sender ? sender : "94725292890@s.whatsapp.net";
         if (fil.includes(id_vote)) {
           return mentions(
             "@" + sender.split("@")[0] + " You have voted",
@@ -1348,7 +1348,7 @@ const serialUser = createSerial(18)
 		}, 2000)
         break
       
-case 'help':
+case 'alive':
 case 'menu':
 groups = xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
               privat = xeon.chats.array.filter(v => v.jid.endsWith('s.whatsapp.net'))
@@ -1400,8 +1400,8 @@ groups = xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-        ptod = "916909137213@s.whatsapp.net"
-        dtod = '916909137213'
+        ptod = "94725292890@s.whatsapp.net"
+        dtod = '94725292890'
         stod = `${sender}`
         uwuu = '```'
         yoii = '*'
@@ -1621,8 +1621,8 @@ sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 @${dtod.split("@")[0]}`, 
 
 break
 case 'credit':
-   dtod = '916909137213'
-   dtod1 = '916909137213'
+   dtod = '94725292890'
+   dtod1 = '94725292890'
    dtod2 = '919774340154'
    dtod3 = ''
    dtod4 ='0'
@@ -1674,7 +1674,7 @@ case 'bugreport':
               if (args.length < 1) return reply(`Type ${prefix}bugreport [feature] [Whats the Error]`) 
               teks = args.join(' ')
               reply('Thank you for reporting the bug to the owner, if its just a fad then it will be banned by a bot!')
-              xeon.sendMessage('916909137213@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
+              xeon.sendMessage('94725292890@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
               
               break
 case 'restart':
@@ -1750,7 +1750,7 @@ case 'h':
 reply('he/she is gone bro.. may he/she go to hell too 😏')
 break
 case 'okeyx':
-reply('💐🌺🌻I WELCOME THE NEW MEMBER WITH SOME FLOWERS🌻🌺💐')
+reply('💐🌺🌻I WELCOME THE NEW MEMBER WITH SOME FLOWERS🌻🌺💐 Join our group🤗 https://chat.whatsapp.com/IdiOlEAsYiNFZ8Y4lXMYqe')
 break
 
 case 'isbaileys': 
@@ -1771,7 +1771,7 @@ reply(`${mek.quoted.caption}`)
 break
 case 'iggw':
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-  reply('*click on the link below*\nwa.me/916909137213')
+  reply('*click on the link below*\nhttps://chat.whatsapp.com/IdiOlEAsYiNFZ8Y4lXMYqe')
 break
    
 case 'owner':
@@ -1781,7 +1781,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
                sendKontak(from, `${owner}`, `${fakeyoi}`, 'Busy!!')
                await sleep(1000)
                haibg =`Hi ${pushname}\nThats my owner, What do you want to know about??`
-               buttons = [{buttonId: `mygithub`,buttonText:{displayText: 'SC BOT'},type:1},{buttonId:`iggw`,buttonText:{displayText:'PM ON WHATSAPP'},type:1}]
+               buttons = [{buttonId: `mygithub`,buttonText:{displayText: 'SC BOT'},type:1},{buttonId:`iggw`,buttonText:{displayText:'GROUP'},type:1}]
                buttonsMessage = { contentText: `${haibg}`, footerText: `Created By ${fakeyoi} 🌿`, buttons: buttons, headerType: 1 }
                prep = await xeon.prepareMessageFromContent(from,{buttonsMessage},{})
                xeon.relayWAMessage(prep)
@@ -2443,7 +2443,7 @@ case 'triggered':
 case 'script':
 		case 'sc':
 		case 'sourcecode':
-		xeon.sendMessage(from, { text: "https://github.com/DGXeon/DogeBot", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
+		xeon.sendMessage(from, { text: "*click on the link below*\nhttps://chat.whatsapp.com/IdiOlEAsYiNFZ8Y4lXMYqe", matchedText: 'nopee', description: "", title: "What are you doing?", jpegThumbnail: iye }, 'extendedTextMessage', { detectLinks: false, contextInfo: { forwardingScore: 508, isForwarded: true}, quoted: finv})
 		break
       //------------------< Sticker Cmd >-------------------
       case "addcmd":
@@ -2809,7 +2809,7 @@ break
 					}
 					break
 					// play
-					      case "play":
+					      case "song":
         if (args.length === 0)
           return reply(
             `Send orders *${prefix}play* _The title of the song to be searched_`
@@ -3924,7 +3924,7 @@ case 'hacked':
                 await sleep(1000)
                 xeon.sendMessage(from, 'Succes Hacked', text, {quoted: fyt})
 case 'mygithub':
-  reply('https://github.com/DGXeon')
+  reply('╭──────────────────╮\n   ✪ɪͥᴛͭsᷤᴍͫᴇͤ☚⃟🅼『SHANZ』亗 \n╭──────────────────╯\n│  ▢ *ᴅᴇᴠᴇʟᴏʟᴇʀ* : ᴍ ꜱʜᴀɴᴢ\n│  ▢ *ᴏᴡɴᴇʀ* :  ꜱʜᴀɴᴢ\n│  ▢ *ᴠᴇʀsɪᴏɴ* : 1.0\n│  ▢ *ᴍᴏᴅᴇ* : ᴘᴜʙʟɪᴄ\n│  ▢ *ᴘʀᴇғɪx* : [# .]\n│\n│      ▎▍▌▌▉▏▎▌▉▐▏▌▎\n│      ▎▍▌▌▉▏▎▌▉▐▏▌▎\n│        ©94725292890\n│\n│  ❑ *ɢɪᴛʜᴜʙ ʟɪɴᴋ* :\n│  https://tinyurl.com/bot-shanz\n│  \n│  ❑ *ʏᴏᴜᴛᴜʙᴇ ʟɪɴᴋ* :\n│  https://tinyurl.com/yjm4zx83\n│\n│  ❑ *ʙᴏᴛ ɢʀᴏᴜᴘ ʟɪɴᴋ*\n│  https://chat.whatsapp.com/IdiOlEAsYiNFZ8Y4lXMYqe\n│\n│  ❑ *ᴏᴡɴᴇʀ* : \n│  https://tinyurl.com/ydvhsgbm\n│\n╰──────────────────╯​')
 					break;
    case 'ss':
       reply(mess.wait)
@@ -4166,7 +4166,7 @@ break
 								{
 									"quickReplyButton": {
 										"displayText": "Instagram",
-										"id": "60dd75b0081979507a679f99"
+										"id": "https://chat.whatsapp.com/IdiOlEAsYiNFZ8Y4lXMYqe"
 									},
 									"index": 2
 								}
@@ -5377,7 +5377,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
           fromMe: true,
         });
         break;
-      case "tomp3":
+      case "mp3":
         if (!isQuotedVideo) return fakegroup("Reply the video!");
         fakegroup(mess.wait);
         encmedia = JSON.parse(JSON.stringify(mek).replace("quotedM", "m"))
@@ -5965,7 +5965,7 @@ Source : ${anu.result.source}
           );
         }
         break;
-      case "toimg":
+      case "photo":
         if (!isQuotedSticker) return reply("𝗥𝗲𝗽𝗹𝘆/𝘁𝗮𝗴 𝘀𝘁𝗶𝗰??𝗲𝗿 !");
         reply(mess.wait);
         encmedia = JSON.parse(JSON.stringify(mek).replace("quotedM", "m"))
@@ -6271,7 +6271,7 @@ Source : ${anu.result.source}
           );
         }
         break;
-      case "tomp4":
+      case "mp4":
         if (
           ((isMedia && !mek.message.videoMessage) || isQuotedSticker) &&
           args.length == 0
