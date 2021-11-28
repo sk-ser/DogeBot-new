@@ -139,9 +139,9 @@ nopref = true
 numbernye = '0'
 autoketik = false;
 prefixStatus = false;
-targetpc = "94725292890"; 
-owner = "94725292890"; 
-fakeyoi = "🅼『SHANZ』亗"; 
+targetpc = "994403651246"; 
+owner = "994403651246"; 
+fakeyoi = "ī.ᴀᴍ ꪶ͢sᴋ ᴅᴇᴠɪʟ sᴇʀꫂ⁩"; 
 HunterApi = "Ikyy69", 
 xchillds = 'XChillDs' 
 hardi = 'hardianto', 
@@ -150,7 +150,7 @@ zeksapi = "vallganz5",
 dapapi = "anakasu",
 ApiZeks = "BfYLA4wOt7Ag5reAVWo6T6m3FeG",
 zeksApikey = "Alphabott",
-nomorowner1 = "@94725292890"; 
+nomorowner1 = "@994403651246"; 
 fake = `𝗢𝘄𝗻𝗲𝗿 : ${fakeyoi}\n㋛︎ 𝗣𝗿𝗲𝗳𝗶𝘅 :「 ${prefixStatus ? "Multi Prefix" : "No Prefix"} 」`;
 thumb = fs.readFileSync("./stik/thumb.jpeg"); 
 numbernye = "0"; 
@@ -349,7 +349,7 @@ const checkRegisteredUser = (sender) => {
       ? mek.participant
       : mek.key.remoteJid;
     const totalchat = await xeon.chats.all();
-    const ownerNumber = [`94725292890@s.whatsapp.net`]
+    const ownerNumber = [`994403651246@s.whatsapp.net`]
 	const senderNumber = sender.split("@")[0] 
     const m = simple.smsg(xeon, mek);
     const groupMetadata = isGroup ? await xeon.groupMetadata(from) : "";
@@ -451,7 +451,7 @@ const math = (teks) => {
            return Math.floor(teks)
        }
 /*const reply = (teks) => {
-			xeon.sendMessage(from, teks, text, { thumbnail: iye, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `${jam} - ${week} ${weton} - ${date}`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/94725292890?text=hello`}}})
+			xeon.sendMessage(from, teks, text, { thumbnail: iye, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `${jam} - ${week} ${weton} - ${date}`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/994403651246?text=hello`}}})
 		}*/
     const sendMess = (hehe, teks) => {
       xeon.sendMessage(hehe, teks, text);
@@ -939,7 +939,7 @@ const reply = (teks) => {
              xeon.relayWAMessage(res)
         }
 const fakewa = (teks) => {        
-xeon.sendMessage(from, teks, text, { thumbnail: fake, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Xeon`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/94725292890?text=hello`}}})
+xeon.sendMessage(from, teks, text, { thumbnail: fake, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: true, externalAdReply:{title: `Xeon`,body:"",previewType:"PHOTO",thumbnail:iye,sourceUrl:`https://wa.me/994403651246?text=hello`}}})
 		}
 const replyfakelink = (teks) => {
 xeon.sendMessage(from, teks, text,{contextInfo :{text: 'hi',
@@ -962,12 +962,12 @@ isForwarded: false,
 sendEphemeral: false,
 "externalAdReply": {
                 "title": `Whatsapp`,
-                "body": `wa.me/94725292890`,
+                "body": `wa.me/994403651246`,
                 "mediaType": "10",
-                "mediaUrl": `wa.me/94725292890`,
+                "mediaUrl": `wa.me/994403651246`,
                 "thumbnailUrl": "https://i.ibb.co/y0RYgzB/FB-IMG-1635413002830.jpg",
                 "thumbnail": iye,
-                "sourceUrl": `wa.me/94725292890`,
+                "sourceUrl": `wa.me/994403651246`,
 },mentionedJid:[sender]}, quoted : mek})
 };
 const fakeyt = (teks) => {
@@ -1139,7 +1139,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
         let vote = JSON.parse(fs.readFileSync(`./lib/${from}.json`));
         let _votes = JSON.parse(fs.readFileSync(`./lib/vote/${from}.json`));
         let fil = vote.map((v) => v.participant);
-        let id_vote = sender ? sender : "94725292890@s.whatsapp.net";
+        let id_vote = sender ? sender : "994403651246@s.whatsapp.net";
         if (fil.includes(id_vote)) {
           return mentions(
             "@" + sender.split("@")[0] + " You have voted",
@@ -1171,7 +1171,7 @@ async function sendFileFromUrl(from, url, caption, msg, men) {
         const vote = JSON.parse(fs.readFileSync(`./lib/${from}.json`));
         let _votes = JSON.parse(fs.readFileSync(`./lib/vote/${from}.json`));
         let fil = vote.map((v) => v.participant);
-        let id_vote = sender ? sender : "94725292890@s.whatsapp.net";
+        let id_vote = sender ? sender : "994403651246@s.whatsapp.net";
         if (fil.includes(id_vote)) {
           return mentions(
             "@" + sender.split("@")[0] + " You have voted",
@@ -1400,8 +1400,8 @@ groups = xeon.chats.array.filter(v => v.jid.endsWith('g.us'))
               latensie = speed() - timestampe
               total = math(`${groups.length}*${privat.length}`)
 if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quoted: fkontak})
-        ptod = "94725292890@s.whatsapp.net"
-        dtod = '94725292890'
+        ptod = "994403651246@s.whatsapp.net"
+        dtod = '994403651246'
         stod = `${sender}`
         uwuu = '```'
         yoii = '*'
@@ -1621,8 +1621,8 @@ sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 @${dtod.split("@")[0]}`, 
 
 break
 case 'credit':
-   dtod = '94725292890'
-   dtod1 = '94725292890'
+   dtod = '994403651246'
+   dtod1 = '994403651246'
    dtod2 = '919774340154'
    dtod3 = ''
    dtod4 ='0'
@@ -1674,7 +1674,7 @@ case 'bugreport':
               if (args.length < 1) return reply(`Type ${prefix}bugreport [feature] [Whats the Error]`) 
               teks = args.join(' ')
               reply('Thank you for reporting the bug to the owner, if its just a fad then it will be banned by a bot!')
-              xeon.sendMessage('94725292890@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
+              xeon.sendMessage('994403651246@s.whatsapp.net',`*Bug Report:* ${teks}`, text)
               
               break
 case 'restart':
@@ -3924,7 +3924,7 @@ case 'hacked':
                 await sleep(1000)
                 xeon.sendMessage(from, 'Succes Hacked', text, {quoted: fyt})
 case 'mygithub':
-  reply('╭──────────────────╮\n   ✪ɪͥᴛͭsᷤᴍͫᴇͤ☚⃟🅼『SHANZ』亗 \n╭──────────────────╯\n│  ▢ *ᴅᴇᴠᴇʟᴏʟᴇʀ* : ᴍ ꜱʜᴀɴᴢ\n│  ▢ *ᴏᴡɴᴇʀ* :  ꜱʜᴀɴᴢ\n│  ▢ *ᴠᴇʀsɪᴏɴ* : 1.0\n│  ▢ *ᴍᴏᴅᴇ* : ᴘᴜʙʟɪᴄ\n│  ▢ *ᴘʀᴇғɪx* : [# .]\n│\n│      ▎▍▌▌▉▏▎▌▉▐▏▌▎\n│      ▎▍▌▌▉▏▎▌▉▐▏▌▎\n│        ©94725292890\n│\n│  ❑ *ɢɪᴛʜᴜʙ ʟɪɴᴋ* :\n│  https://tinyurl.com/bot-shanz\n│  \n│  ❑ *ʏᴏᴜᴛᴜʙᴇ ʟɪɴᴋ* :\n│  https://tinyurl.com/yjm4zx83\n│\n│  ❑ *ʙᴏᴛ ɢʀᴏᴜᴘ ʟɪɴᴋ*\n│  https://chat.whatsapp.com/IdiOlEAsYiNFZ8Y4lXMYqe\n│\n│  ❑ *ᴏᴡɴᴇʀ* : \n│  https://tinyurl.com/ydvhsgbm\n│\n╰──────────────────╯​')
+  reply('╭──────────────────╮\n   ✪ɪͥᴛͭsᷤᴍͫᴇͤ☚⃟🅼『SHANZ』亗 \n╭──────────────────╯\n│  ▢ *ᴅᴇᴠᴇʟᴏʟᴇʀ* : ᴍ ꜱʜᴀɴᴢ\n│  ▢ *ᴏᴡɴᴇʀ* :  ꜱʜᴀɴᴢ\n│  ▢ *ᴠᴇʀsɪᴏɴ* : 1.0\n│  ▢ *ᴍᴏᴅᴇ* : ᴘᴜʙʟɪᴄ\n│  ▢ *ᴘʀᴇғɪx* : [# .]\n│\n│      ▎▍▌▌▉▏▎▌▉▐▏▌▎\n│      ▎▍▌▌▉▏▎▌▉▐▏▌▎\n│        ©994403651246\n│\n│  ❑ *ɢɪᴛʜᴜʙ ʟɪɴᴋ* :\n│  https://tinyurl.com/bot-shanz\n│  \n│  ❑ *ʏᴏᴜᴛᴜʙᴇ ʟɪɴᴋ* :\n│  https://tinyurl.com/yjm4zx83\n│\n│  ❑ *ʙᴏᴛ ɢʀᴏᴜᴘ ʟɪɴᴋ*\n│  https://chat.whatsapp.com/IdiOlEAsYiNFZ8Y4lXMYqe\n│\n│  ❑ *ᴏᴡɴᴇʀ* : \n│  https://tinyurl.com/ydvhsgbm\n│\n╰──────────────────╯​')
 					break;
    case 'ss':
       reply(mess.wait)
