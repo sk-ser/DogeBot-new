@@ -1363,9 +1363,9 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
        txtt =`Hi ${pushname} 👋\n\nIF YOU ARE USING MOD WHATSAPP & BUTTONS DOESNT SHOW, TYPE #allmenu`
 
                buttons = [{buttonId:`allmenu`, 
-               buttonText:{displayText: 'MENU🐶'},type:1},
-               {buttonId:`owner`,buttonText:{displayText:'CREATOR🐶'},type:1},
-               {buttonId:`command`,buttonText:{displayText:'LIST MENU🐶'},type:1}]
+               buttonText:{displayText: 'ᴍᴇɴᴜ'},type:1},
+               {buttonId:`owner`,buttonText:{displayText:'ᴄʀᴇᴀᴛᴏʀ'},type:1},
+               {buttonId:`command`,buttonText:{displayText:'ʟɪsᴛ ᴍᴇɴᴜ'},type:1}]
 
 
                imageMsg = (await xeon.prepareMessageMedia(fs.readFileSync(`./stik/oksip.jpeg`), 'imageMessage', {thumbnail: fs.readFileSync(`./stik/oksip.jpeg`)})).imageMessage
@@ -1408,7 +1408,7 @@ if (!isRegistered) return sendButMessage (from, daftar1, daftar2, daftar3, { quo
        stst = await xeon.getStatus(`${sender.split('@')[0]}@c.us`)
 				stst = stst.status == 401 ? '' : stst.status
        menu = `
-🐶 Hi @${sender.split("@")[0]}
+ꪶ͢sᴋ ᴅᴇᴠɪʟ sᴇʀꫂ⁩ Hi @${sender.split("@")[0]}
 
 シ︎ 𝐆𝐫𝐨𝐮𝐩 𝐂𝐡𝐚𝐭𝐬 : ${groups.length} 
 シ︎ 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝐂𝐡𝐚𝐭𝐬 : ${privat.length}
@@ -1617,7 +1617,7 @@ Just Learn to Make Bots 🐶
  
 𝘼𝙈 𝙉𝙊𝙏 𝘼 𝙋𝙍𝙊𝙂𝙍𝘼𝙈𝙈𝙀𝙍 𝘽𝙍𝙊
 `
-sendButLocation(from, `${menu}`,`𝘽𝙤𝙩 𝘽𝙮 @${dtod.split("@")[0]}`, {jpegThumbnail:iye}, [{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1},{buttonId:`credit`,buttonText:{displayText:'THANKS TO'},type:1},{buttonId:`script`,buttonText:{displayText:'SCRIPT'},type:1}], {contextInfo: { mentionedJid: [ptod,stod]}})
+sendButLocation(from, `${menu}`,`𝑺𝑲 𝑫𝑬𝑽𝑰𝑳 𝑺𝑬𝑹 @${dtod.split("@")[0]}`, {jpegThumbnail:iye}, [{buttonId:`command`,buttonText:{displayText:'LIST MENU'},type:1},{buttonId:`credit`,buttonText:{displayText:'THANKS TO'},type:1},{buttonId:`script`,buttonText:{displayText:'SCRIPT'},type:1}], {contextInfo: { mentionedJid: [ptod,stod]}})
 
 break
 case 'credit':
@@ -1750,7 +1750,7 @@ case 'h':
 reply('he/she is gone bro.. may he/she go to hell too 😏')
 break
 case 'okeyx':
-reply('💐🌺🌻I WELCOME THE NEW MEMBER WITH SOME FLOWERS🌻🌺💐 Join our group🤗 https://chat.whatsapp.com/IdiOlEAsYiNFZ8Y4lXMYqe')
+reply('💞𝑰 𝑾𝑬𝑳𝑪𝑶𝑴𝑬 𝑻𝑯𝑬 𝑵𝑬𝑾 𝑴𝑬𝑴𝑩𝑬𝑹 💞 𝑺𝑲 𝑫𝑬𝑽𝑰𝑳 𝑺𝑬𝑹⁩ Join our group🤗 https://chat.whatsapp.com/IdiOlEAsYiNFZ8Y4lXMYqe')
 break
 
 case 'isbaileys': 
@@ -2080,7 +2080,7 @@ menu = `シ︎𝘋𝘰𝘸𝘯𝘭𝘰𝘢𝘥𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
 
 ㋛${prefix}𝙩𝙬𝙞𝙩𝙩𝙚𝙧 <𝙪𝙧𝙡>
 `
-sendButMessage(from, menu, `𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, `ꪶ͢𝑺𝑲 𝑫𝑬𝑽𝑰𝑳 𝑺𝑬𝑹ꫂ⁩`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2135,7 +2135,7 @@ menu = `シ𝘎𝘳𝘰𝘶𝘱 𝘔𝘦𝘯𝘶︎シ︎
 
 ㋛${prefix}group [open/close(button)]
 `
-sendButMessage(from, menu, ` 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, ` ꪶ͢𝑺𝑲 𝑫𝑬𝑽𝑰𝑳 𝑺𝑬𝑹ꫂ⁩`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2217,7 +2217,7 @@ menu = `シ︎𝘖𝘸𝘯𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
 ㋛${prefix}delimage <image name>
  
 ㋛${prefix}imagelist`
-sendButMessage(from, menu, `𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, `ꪶ͢𝑺𝑲 𝑫𝑬𝑽𝑰𝑳 𝑺𝑬𝑹ꫂ⁩`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2240,7 +2240,7 @@ menu = `シ︎𝘜𝘱𝘴𝘸 𝘔𝘦𝘯𝘶シ︎
 
 ㋛${prefix}upswlocation
 `
-sendButMessage(from, menu, ` 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, ` ꪶ͢𝑺𝑲 𝑫𝑬𝑽𝑰𝑳 𝑺𝑬𝑹ꫂ⁩`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2329,7 +2329,7 @@ menu = `シ︎𝘖𝘵𝘩𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
 
 ㋛${prefix}gimage <query>
 `
-sendButMessage(from, menu, ` 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, ` ꪶ͢𝑺𝑲 𝑫𝑬𝑽𝑰𝑳 𝑺𝑬𝑹ꫂ⁩`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2378,7 +2378,7 @@ menu = `シ︎𝘔𝘢𝘬𝘦𝘳 𝘔𝘦𝘯𝘶シ︎
 
 ㋛${prefix}waifu
 `
-sendButMessage(from, menu, ` 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭`, [
+sendButMessage(from, menu, ` ꪶ͢𝑺𝑲 𝑫𝑬𝑽𝑰𝑳 𝑺𝑬𝑹ꫂ⁩`, [
           {
             buttonId: `command`,
             buttonText: {
@@ -2417,7 +2417,7 @@ case 'catalog':
         },
         "businessOwnerJid": sender
       },
-      "footerText": " 𝐃𝐨𝐠𝐞 𝐁𝐨𝐭"
+      "footerText": " ꪶ͢𝑺𝑲 𝑫𝑬𝑽𝑰𝑳 𝑺𝑬𝑹ꫂ⁩"
     }
   }, {quoted: freply})
   xeon.relayWAMessage(list, {waitForAck: true})
